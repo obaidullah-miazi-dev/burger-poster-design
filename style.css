@@ -1,0 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/impact');
+@import url('https://fonts.cdnfonts.com/css/segoe-script');
+
+    /* font-family: impact;
+    font-family: 'Segoe Script', sans-serif;              */
+               
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poster-container{
+    width: 800px;
+    height: 800px;
+    background-image: url(burger-poster-bg.jpg);
+    background-size: cover;
+}
+
+.main-text-container{
+    align-items: center;
+    text-align: center;
+}
+
+.main-text-container > p {
+    font-family: 'Segoe Script', sans-serif;
+    font-size: 18px;
+    color: white;
+    /* position: absolute; */
+    position: relative;
+    top: 88px;
+    right: 72px;
+}
+
+.main-text-container > h1{
+    font-family: impact;
+    font-size: 72px;
+    color: rgb(255, 136, 0);
+    /* position: absolute; */
+    position: relative;
+    top: 60px;
+    
+}
+
+.burger-img img{
+    width: 800px;
+    position: relative;
+    top: -120px;
+    /* left: -20px; */
+}
+
+.burger-img::before{
+    content: 'BURGER';
+    font-size: 240px;
+    position: absolute;
+    font-family: impact;
+    color: white;
+    top: 250px;
+    left: 24px;
+}
+
+.bottom-text-container{
+    display: flex;
+    position: absolute;
+    top: 700px;
+}
+
+.off-text p {
+    font-family: 'Segoe Script', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 28px;
+}
+
+.off-text h2{
+    font-family: impact;
+    font-size: 30px;
+    position: relative;
+    color: rgb(255, 136, 0);
+    left: 25px;
+}
+
+.off-text{
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.order-text{
+    position: relative;
+    bottom: 10px;
+    left: 371px;
+    background-color: orange;
+    padding: 0px 12px;
+    
+    
+}
+
+.order-text h2{
+    font-family: impact;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+                                                
